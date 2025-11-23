@@ -1,0 +1,39 @@
+# Freqtrade and Core Dependencies
+freqtrade==2024.11
+ccxt==4.3.99
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+
+# FreqAI Machine Learning
+lightgbm==4.5.0
+catboost==1.2.7
+joblib==1.4.2
+optuna==3.6.1
+
+# Technical Analysis
+ta-lib==0.4.32
+pandas-ta==0.3.14b0
+
+# API & Notifications
+flask==3.0.3
+python-telegram-bot==20.7
+requests==2.32.3
+
+# Data & Utilities
+python-dotenv==1.0.1
+pydantic==2.8.2
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Visualization (for backtesting reports)
+plotly==5.23.0
+matplotlib==3.9.2
+
+# Performance & Optimization
+cython==3.0.11
+blosc==1.11.2
+
+# Development
+pytest==8.3.2
+pytest-asyncio==0.24.0
